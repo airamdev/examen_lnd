@@ -1,0 +1,151 @@
+@import url(fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+@import url(fonts/manrope/Manrope-VariableFont_wght.ttf);
+
+:root {
+    --violet: rgb(36, 5, 62);
+    --green: rgb(67, 255, 161);
+    --blanco: #fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.container {
+    max-height: 50%;
+    background-color: var(--violet);
+    text-align: center;
+}
+
+.logo {
+    margin-right: 66%;
+    padding: 2rem;
+    padding-top: 4rem;
+}
+
+.img-founder {
+    max-width: 30rem;
+    margin-left: 6rem;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.attributes {
+    color: var(--violet);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.attributes-description {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.box-container-founder {
+    background-color: var(--violet);
+    color: var(--blanco);
+    max-width: 90%;
+    height: 25rem;
+    margin-left: 2rem;
+    font-family: 'Lucida Sans', sans-serif;
+    text-align: center;
+    padding: 2rem 0rem;
+    margin-top: -3rem;
+}
+
+.founder-title {
+    font-size: 3rem;
+}
+
+.social-media {
+    margin-left: 18rem;
+    padding-bottom: 5rem;
+}
+
+.icons {
+}
+
+.logo-under {
+    margin-left: 12rem;
+    padding: 5rem;
+}
+
+.numbers {
+    color: var(--violet);
+    background-color: none;
+    border: .2rem solid;
+    border-color: var(--violet);
+    border-radius: 100%;
+    width: 2.4rem;
+    margin-left: 48%;
+}
+
+.title {
+    font-size: 5rem;
+    text-align: center;
+    color: var(--blanco);
+}
+
+.founder-subtitle {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.sub-page {
+    text-decoration: underline;
+    color: var(--blanco);
+    font-weight: 400;
+    text-decoration-color: var(--green);
+    font-size: 1.3rem;
+}
+
+.title span {
+    text-decoration: underline;
+    color: var(--blanco);
+    font-weight: 400;
+    text-decoration-color: var(--green);
+}
+
+.button {
+    background-color: var(--green);
+    color: var(--violet);
+    text-decoration: none;
+    font-size: 1.7rem;
+    padding: 2rem;
+    text-align: center;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.button-apply {
+    background-color: var(--green);
+    color: var(--violet);
+    text-decoration: none;
+    font-size: 1.7rem;
+    padding: 2rem;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.button span {
+    text-transform: capitalize;
+}
+
+img {
+    max-width: 40rem;
+}
